@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lilita One", cursive;
+    font-family: "Montserrat Alternates", sans-serif;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  body {
+    background-image: url(https://bogatyr.club/uploads/posts/2023-02/thumbs/1677189338_bogatyr-club-p-serii-fon-odnotonnii-svetlii-fon-pinterest-3.jpg);
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    display: block;
+  }
+  
+  header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+    flex-wrap: nowrap;
+    position: fixed;
+    z-index: 1;
+  }
+  
+  .navigation {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+  }
+  
+  .links a {
+    margin-left: 20px;
+  }
+  
+  
+  .wrapper {
+    position: relative;
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .bodyLeft {
+    width: 50%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    color: #fff;
+    left: 10em;
+    top: 30%;
+  }
+  
+  .bodyLeft p {
+    font-size: 5.5em;
+    font-weight: 600;
+    margin-bottom: 0.4em;
+  }
+  
+  .bodyLeft span {
+    font-size: 15px;
+    font-weight: 100;
+    color: white;
+  }
+  
+  .btnActivate {
+    display: flex;
+    width: 150px;
+    height: 45px;
+    color: #fff;
+    background: linear-gradient(90deg, #ddff7f, #81f7ee);
+    border-radius: 32px;
+    text-align: center;
+    align-items: center;
+    justify-self: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 35px;
+  }
+  
+  .bodyRight {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    color: #fff;
+    justify-content: flex-end;
+    right: 15em;
+  }
+  
+  .bodyRight img {
+    width: 100%;
+    /* width: 564px;
+    height: 376px; */
+  }
+  
+.container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+.img {
+    margin-top: 80px;
+}
+.img img {
+    border-radius: 25px;
+}
+.text p {
+  text-align: justify;
+}
+
+p {
+  margin: 170px;
+}

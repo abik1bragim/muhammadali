@@ -1,0 +1,140 @@
+body {
+    background-image: url(./1617569447_19-p-fon-biblioteka-22.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+  }
+
+  main {
+    padding: 60px;
+    display: flex;
+    justify-content: center ;
+  }
+  
+
+  .navigation {
+    /* width: 100%; */
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */ 
+  }
+
+  .logo {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .links a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 10px;
+  }
+  
+  .wrapper {
+    position: relative;
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .bodyLeft {
+    width: 50%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    color: #fff;
+    left: 10em;
+    top: 30%;
+  }
+  
+  .bodyLeft p {
+    font-size: 5.5em;
+    font-weight: 600;
+    margin-bottom: 0.4em;
+  }
+  
+  .bodyLeft span {
+    font-size: 15px;
+    font-weight: 100;
+    color: #9fa6d4;
+  }
+  
+  .btnActivate {
+    display: flex;
+    width: 150px;
+    height: 45px;
+    color: #fff;
+    background: linear-gradient(90deg, #ddff7f, #81f7ee);
+    border-radius: 32px;
+    text-align: center;
+    align-items: center;
+    justify-self: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 35px;
+  }
+  
+  .bodyRight {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    color: #fff;
+    justify-content: flex-end;
+    right: 15em;
+  }
+  
+  .bodyRight img {
+    width: 500px;
+  }
+.parent {
+  display: flex;
+}
+  .product {
+
+    margin-right: 40px;
+    width: 200px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  
+  .product img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .buy-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+  }
+
+
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  h2 {
+    color: white;
+  }
+  .first {
+    height: 600px;
+  }
+
+  .second {
+    height: 600px;
+  }
+
+  .third {
+    height: 600px;
+  }
